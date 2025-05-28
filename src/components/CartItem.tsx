@@ -29,7 +29,7 @@ export default function CartItem({
       >
         <img
           className=""
-          src="/images/icon-remove-item.svg"
+          src="/product-list-with-cart/images/icon-remove-item.svg"
           alt="remove cart item"
         />
       </button>

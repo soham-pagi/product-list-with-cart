@@ -35,7 +35,7 @@ export default function Cart({
           </div>
 
           <div className="my-10 flex justify-center gap-1 items-center bg-orange-50 p-4 rounded-lg">
-            <img src="/images/icon-carbon-neutral.svg" alt="tree image" />
+            <img src="/product-list-with-cart/images/icon-carbon-neutral.svg" alt="tree image" />
             <p className="font-thin text-sm">
               This is a <span className="font-semibold">carbon-neutral</span>{" "}
               delivery
@@ -45,7 +45,7 @@ export default function Cart({
         </>
       ) : (
         <>
-        <img src="/images/illustration-empty-cart.svg" alt="" />
+        <img src="/product-list-with-cart/images/illustration-empty-cart.svg" alt="" />
         <p className="text-xs font-semibold text-orange-950">Your added items will appear here.</p>
         </>
       )}

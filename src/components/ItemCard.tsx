@@ -30,8 +30,8 @@ export default function ItemCard({
           className={`w-full object-cover rounded-lg border-2 ${
             quantity > 0 ? "border-orange-700" : "border-transparent"
           }`}
-          src={image.desktop}
-          srcSet={`${image.mobile} 320w, ${image.tablet} 680w, ${image.desktop} 960w`}
+          src={`/product-list-with-cart/${image.desktop}`}
+          srcSet={`/product-list-with-cart/${image.mobile} 320w, /product-list-with-cart/${image.tablet} 680w, /product-list-with-cart/${image.desktop} 960w`}
           alt={name}
         />
         <div
@@ -47,7 +47,7 @@ export default function ItemCard({
               }}
               className="hover:brightness-90 flex px-6 gap-2 bg-white py-2 rounded-full border border-orange-700"
             >
-              <img src="/images/icon-add-to-cart.svg" alt="add to card" />
+              <img src="/product-list-with-cart/images/icon-add-to-cart.svg" alt="add to card" />
               <span className="whitespace-nowrap font-semibold text-gray-800">
                 Add to Cart
               </span>
@@ -61,7 +61,7 @@ export default function ItemCard({
                 }}
               >
                 <img
-                  src="/images/icon-decrement-quantity.svg"
+                  src="/product-list-with-cart/images/icon-decrement-quantity.svg"
                   alt="decrement"
                 />
               </button>
@@ -73,7 +73,7 @@ export default function ItemCard({
                 }}
               >
                 <img
-                  src="/images/icon-increment-quantity.svg"
+                  src="/product-list-with-cart/images/icon-increment-quantity.svg"
                   alt="increment"
                 />
               </button>

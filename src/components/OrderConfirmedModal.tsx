@@ -25,7 +25,7 @@ function Modal() {
           width={40}
           height={40}
           className="size-10"
-          src="/images/icon-order-confirmed.svg"
+          src="/product-list-with-cart/images/icon-order-confirmed.svg"
           alt=""
         />
         <Header className="mt-4 mb-2 text-3xl" text="Order Confirmed" />
@@ -67,7 +67,7 @@ function Item({
         width={48}
         height={40}
         className="size-12 object-cover rounded-lg "
-        src="/images/image-waffle-thumbnail.jpg"
+        src="/product-list-with-cart/images/image-waffle-thumbnail.jpg"
         alt=""
       />
       <div>
