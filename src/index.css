@@ -1,0 +1,42 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: "RedHatText";
+  src: url("./assets/fonts/static/RedHatText-Regular.ttf") format("truetype");
+  font-weight: 400; /* Regular */
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "RedHatText";
+  src: url("./assets/fonts/static/RedHatText-SemiBold.ttf") format("truetype");
+  font-weight: 600; /* SemiBold */
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "RedHatText";
+  src: url("./assets/fonts/static/RedHatText-Bold.ttf") format("truetype");
+  font-weight: 700; /* Bold */
+  font-style: normal;
+}
+
+/* Variable Font (optional, if you want to use it) */
+@font-face {
+  font-family: "RedHatTextVariable";
+  src: url("./assets/fonts/static/RedHatText-VariableFont_wght.ttf")
+    format("truetype");
+  font-weight: 400 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: "RedHatTextVariable";
+  src: url("./assets/fonts/static/RedHatText-Italic-VariableFont_wght.ttf")
+    format("truetype");
+  font-weight: 400 700;
+  font-style: italic;
+}
+
+body {
+  font-family: "RedHatText", Arial, sans-serif;
+}
